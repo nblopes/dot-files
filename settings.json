@@ -1,0 +1,93 @@
+{
+  "window.titleBarStyle": "native",
+  "apc.font.family": "Geist Mono",
+  "apc.menubar.compact": false,
+  "apc.electron": {
+    "frame": false,
+    "titleBarStyle": "customButtonsOnHover",
+    "trafficLightPosition": {
+      "x": 10,
+      "y": 12
+    },
+    "customButtonsOnHover": true,
+  },
+  "apc.header": {
+    "height": 40
+  },
+  "apc.listRow": {
+    "fontSize": 13
+  },
+  "apc.sidebar.titlebar": {
+    "height": 40
+  },
+  "apc.activityBar": {
+    "size": 40,
+    "itemSize": 40,
+    "itemMargin": 0
+  },
+  "apc.stylesheet": {
+    ".title-label": "display: none !important",
+    ".composite.title": "display: block !important",
+    ".monaco-workbench .part.sidebar .title-actions .actions-container": "justify-content: space-evenly !important",
+    //".title-actions": "display: none !important",
+    ".quick-input-widget.show-file-icons, .editor-widget.find-widget": "box-shadow: none !important",
+    ".filematch .monaco-icon-label:before, .custom-list-row.results .monaco-list-row .monaco-icon-label:before": "background-position: 0 bottom !important",
+    ".filematch .monaco-count-badge": "padding: 5px 6px 0 6px !important",
+    ".sidebar .title-label": "padding-left: 14px !important",
+    ".monaco-workbench .monaco-list:not(.element-focused):focus:before": "outline: none !important",
+    //".sidebar": "border: none !important",
+    ".monaco-editor .cursors-layer .cursor": "background-image: linear-gradient(135deg, #67D0FF 10%, #C45DFF 100%)",
+    ".quick-input-list-row div": "display: flex !important; align-items: center !important",
+    //".panel .composite.title": "visibility: hidden !important",
+    //".title.show-file-icons .label-container .monaco-icon-label.file-icon": "padding-bottom: 6px !important",
+    ".sidebar .title-label h2": "line-height: 2.8 !important",
+    ".monaco-editor .scroll-decoration": "display: none !important",
+    ".monaco-scrollable-element > .shadow.top": "display: none !important",
+    //".monaco-split-view2 > .monaco-scrollable-element > .split-view-container": "background: #191521 !important"
+  },
+  "workbench.colorCustomizations": {
+    "activityBar.foreground": "#5ce0c4",
+    "activityBar.background": "#1c1e28",
+    "sideBar.background": "#1c1e28",
+  },
+  "apc.statusBar": {
+    "position": "editor-bottom",
+  },
+  "workbench.colorTheme": "poimandres-storm",
+  "editor.cursorStyle": "line",
+  "editor.cursorBlinking": "blink",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.cursorWidth": 3,
+  "editor.fontSize": 14,
+  "editor.fontFamily": "Geist Mono",
+  "editor.codeLensFontFamily": "Geist Mono",
+  "editor.fontLigatures": "'ss01', 'cv03', 'zero'",
+  "debug.console.fontFamily": "Geist Mono",
+  "debug.console.fontSize": 15,
+  "debug.console.lineHeight": 35,
+  "debug.toolBarLocation": "docked",
+  "diffEditor.ignoreTrimWhitespace": false,
+  "diffEditor.renderSideBySide": false,
+  "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
+  "terminal.integrated.tabs.enabled": false,
+  "terminal.integrated.lineHeight": 1.2,
+  "terminal.integrated.fontSize": 13,
+  "terminal.integrated.env.osx": {
+    "FIG_NEW_SESSION": "1"
+  },
+  "symbols.hidesExplorerArrows": false,
+  "extensions.experimental.affinity": {
+    "asvetliakov.vscode-neovim": 1
+  },
+  "workbench.iconTheme": "symbols",
+  "workbench.productIconTheme": "fluent-icons",
+  "editor.minimap.enabled": false,
+  "explorer.compactFolders": false,
+  "explorer.decorations.badges": false,
+  "explorer.openEditors.visible": 1,
+  "update.mode": "start",
+  "editor.scrollbar.verticalScrollbarSize": 5,
+  "editor.scrollbar.horizontalScrollbarSize": 5,
+  "window.commandCenter": false,
+  "workbench.layoutControl.enabled": false
+}
